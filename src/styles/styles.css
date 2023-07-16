@@ -1,0 +1,158 @@
+.container {
+
+  background: url('/src/pages/resources/bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-radius: 25px;
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-backdrop-filter: blur(30px);
+
+}
+
+/* .container h1 {
+  color: #e4e4e4;
+} */
+
+.contact-box {
+  margin: 10px;
+  padding: 10px;
+  background: #e4e4e4;
+  display: flex;
+  border-radius: 18px;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  border-radius: 18px;
+}
+
+.contact-left h3 {
+  margin-bottom: 20px;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: rgb(47, 158, 255);
+  border-radius: 18px;
+
+}
+
+.container .blur {
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 18px;
+  padding: 0px 20px;
+}
+
+.contact-right h3 {
+  color: #e4e4e4;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+h1 {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+.contact-left label {
+  color: rgb(47, 158, 255);
+}
+
+.contact-left input {
+  width: 100%;
+  height: 24px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid rgb(47, 158, 255);
+  outline: none;
+  padding-bottom: 15px;
+  background: none;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid rgb(47, 158, 255);
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+}
+
+button {
+  background: rgb(47, 158, 255);
+  width: 100px;
+  bottom: none;
+  outline: none;
+  color: #e4e4e4;
+  font-size: 18px;
+  height: 35px;
+  border-radius: 18px;
+  margin-top: 15px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+select {
+  background: transparent;
+  width: 100%;
+  bottom: none;
+  outline: none;
+  border-bottom: 1px solid rgb(47, 158, 255);
+  color: rgb(47, 158, 255);
+  font-size: 18px;
+  height: 28px;
+}
+
+span {
+  color: rgb(47, 158, 255);
+  align-items: center;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.social-icons a i {
+  color: #ffffff;
+  margin-right: 10px;
+  transition: .5s ease;
+  padding-top: 40px;
+  font-size: 38px;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.4);
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+tr td {
+  padding-top: 40px;
+  font-size: 18px;
+}
